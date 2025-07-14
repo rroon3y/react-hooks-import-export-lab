@@ -1,0 +1,18 @@
+import NavBar from './NavBar';
+
+function App() {
+  return (
+    <div>
+      <NavBar />
+      {/* Other components */}
+    </div>
+  );
+}
+
+export default App;
+
+username = "Liza";
+city = "New York";
+image = "https://i.imgur.com/mV8PQxj.gif";
+
+export { username, city, image };
