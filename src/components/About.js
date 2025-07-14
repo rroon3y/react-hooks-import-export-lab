@@ -1,4 +1,10 @@
 import React from "react";
+import About from "./About";
+import Home from "./Home";
+import NavBar from "./NavBar";
+import { image } from "../data/user";
+
+
 
 function About() {
   return (
@@ -9,3 +15,5 @@ function About() {
     </div>
   );
 }
+
+export default About;
